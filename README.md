@@ -12,3 +12,11 @@ If user input is required (e.g. upstream SSO session requires re-login or approv
 - macOS
 - logged in to the upstream SSO provider in Safari
 - configured AWS SSO and working AWS CLI
+
+#### Installation
+
+- Download .zip from a release.
+- Run `xattr -c SSORefresher.app`, since app is not notarized.
+
+If you want to auto-start app on login, you need to add it under:
+`System Settings` -> `General` -> `Login Items & Extensions` -> `Open at Login` -> select app
